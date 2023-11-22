@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-auto-rows: 100px;
+  gap: 16px;
+}
+
+.grid-wrapper div {
+  background: orange;
+}
